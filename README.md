@@ -1,0 +1,2 @@
+# verify_python
+安装好Python和PhCharm后的验证程序
