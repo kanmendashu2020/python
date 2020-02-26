@@ -1,0 +1,1 @@
+print('您已经安装完成Python和PhCharm')
