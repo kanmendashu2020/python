@@ -14,4 +14,4 @@
 ###### 这个是简答的验证代码，跑通则说明上面两步安装成功
 
 更多内容，请关注公众号：数据TA说
-![数据TA说](https://github.com/kanmendashu2020/verify_python/blob/master/data.jpg ''扫码'')
+![数据TA说](https://github.com/kanmendashu2020/verify_python/blob/master/data.jpg)
