@@ -15,7 +15,7 @@ text = html.text
 
 # 输出到屏幕上
 # print(text)
-file = open('baidu.html','a+',encoding='utf-8')
+file = open('baidu.html', 'a+', encoding='utf-8')
 
 file.write(text)
 file.close()
