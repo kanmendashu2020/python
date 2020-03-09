@@ -1,4 +1,4 @@
-# 3、编写运行代码，直接复制下面的就行~
+# 编写运行代码，直接复制下面的就行~
 
 import requests
 import hashlib
