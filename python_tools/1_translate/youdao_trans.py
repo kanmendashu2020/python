@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time : 2020/3/9 9:02
 # @Author : kanmendashu2020
-# @File : trans.py
+# @File : youdao_trans.py
 # @Software: PyCharm
 # 百度翻译 http://api.fanyi.baidu.com/api/trans/product/apidoc
 
