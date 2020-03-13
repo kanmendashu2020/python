@@ -1,5 +1,5 @@
 
-# Python技术分类汇总-文件夹介绍
+# Python技术总结-文件夹介绍
 
  
 - [1、python_basic](#1python_basic)        
