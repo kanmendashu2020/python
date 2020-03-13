@@ -8,7 +8,7 @@
 
 经常更新，更多内容请去公众号留言交流。
 
-![技术TA说]()
+![技术TA说](https://github.com/kanmendashu2020/resouce/blob/master/image/tec_code.jpg)
 
 ### 1、python_basic
 python的基础知识和运用
