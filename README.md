@@ -1,7 +1,13 @@
 
 # Python技术分类汇总-文件夹介绍
 
-<!-- TOC -->autoauto- [Python技术分类汇总-文件夹介绍](#python技术分类汇总-文件夹介绍)auto        - [1、python_basic](#1python_basic)auto        - [2、python_spider python爬虫](#2python_spider-python爬虫)auto                    - [1、spider_basic](#1spider_basic)auto                    - [2、scrapy框架-从入门到入土](#2scrapy框架-从入门到入土)auto        - [3、python_tools 用python开发的小工具](#3python_tools-用python开发的小工具)autoauto<!-- /TOC -->
+ 
+- [1、python_basic](#1python_basic)        
+- [2、python_spider-python爬虫](#2python_spider-python爬虫)                    
+  - [1、spider_basic](#1spider_basic)
+  - [2、scrapy框架-从入门到入土](#2scrapy框架-从入门到入土)
+- [3、python_tools 用python开发的小工具](#3python_tools-用python开发的小工具)
+
 
 分享自己的学习笔记，
 
