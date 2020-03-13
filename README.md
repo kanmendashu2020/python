@@ -8,6 +8,9 @@
   - [2、spider_scrapy-爬虫框架](#2spider_scrapy-爬虫框架)
 - [3、tools-用python开发的小工具](#3tools-用python开发的小工具)
 
+- [更多内容请去公众号留言交流。](#更多内容请去公众号留言交流)
+
+
 
 分享自己的学习笔记，
 
@@ -15,9 +18,7 @@
 
 比如Python有abcd基础知识，但爬虫主要用到a，那在爬虫部分就不会介绍bcd。
 
-更多内容请去公众号留言交流。
 
-![技术TA说](https://github.com/kanmendashu2020/resouce/blob/master/image/tec_code.jpg)
 
 ## 1、basic-python基础
 python的基础知识和应用
@@ -34,3 +35,7 @@ python的基础知识和应用
 **爬虫框架scrapy**的应用
 
 ## 3、tools-用python开发的小工具
+
+# 更多内容请去公众号留言交流。
+
+![技术TA说](https://github.com/kanmendashu2020/resouce/blob/master/image/tec_code.jpg)
