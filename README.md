@@ -6,12 +6,12 @@
   - [1、log-通用日志类](#1log-通用日志类)
   - [2、sql-操作数据库](#2sql-操作数据库)
 - [2、spider-python爬虫](#2spider-python爬虫)                    
-  - [1、spider_basic-爬虫基础](#1spider_basic)
+  - [1、spider_basic-爬虫基础](#1spider_basic-爬虫基础)
   - [2、spider_scrapy-爬虫框架](#2spider_scrapy-爬虫框架)
 - [3、tools 用python开发的小工具](#3tools-用python开发的小工具)
 
 
-
+<!-- TOC -->autoauto- [Python技术总结-文件夹介绍](#python技术总结-文件夹介绍)auto    - [1、basic-python基础](#1basic-python基础)auto            - [1、log-通用日志类](#1log-通用日志类)auto            - [2、sql-操作数据库](#2sql-操作数据库)auto    - [2、spider python爬虫](#2spider-python爬虫)auto            - [1、spider_basic-爬虫基础](#1spider_basic-爬虫基础)auto            - [2、spider_scrapy-爬虫框架](#2spider_scrapy-爬虫框架)auto    - [3、tools-用python开发的小工具](#3tools-用python开发的小工具)autoauto<!-- /TOC -->
 
 分享自己的学习笔记，
 
