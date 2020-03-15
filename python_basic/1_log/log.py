@@ -1,9 +1,5 @@
+
 # -*- coding: utf-8 -*-
-# @Time : 2020/3/13 15:39
-# @Author : lzf
-# @File : log.py
-# @Software: PyCharm
-# @Description:
 # 1、创建日期为名的日志
 # 2、输出自定义的info和系统的err
 # 3、同时显示程序执行的时间和行号
@@ -13,9 +9,9 @@ import logging.handlers
 import datetime
 import os, sys
 import traceback
-# from utils import formatted_today
-
+# 在当前文件夹下，创建日志目录
 path = 'workLog/'
+# 时间
 today = datetime.date.today()
 formatted_today = today.strftime('%y%m%d')
 glueStr10 = "-" * 10
@@ -53,7 +49,7 @@ def info(info):
 
     handlers.setFormatter(
         logging.Formatter(
-            '%(asctime)s - ' + funcPath + '.' + funcName + '[line:' + lineNumber + '] - %(levelname)s: %(message)s'))
+            '%(asctime)s - ' + funcPath + '.' + funcName + '[line:' + lineNumber + '] - %(levelname)s: ----------%(message)s '))
     # handlers.setFormatter(logging.Formatter(funcName + lineNumber))
     work_log.addHandler(handlers)
     work_log.setLevel(logging.INFO)
