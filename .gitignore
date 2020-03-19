@@ -19,3 +19,4 @@ test
 wxpy_linux
 ai_interface/log_app.out
 ai_interface/start.sh
+.vscode/

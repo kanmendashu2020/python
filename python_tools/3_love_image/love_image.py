@@ -2,7 +2,7 @@
 # 公众号  ：  技术TA说
 # 代码作者  ：  看门大叔
 # 创建时间  ：  2020/3/11  21:48
-# 文件名称  :  test.py
+# 文件名称  :  9x9_live.py
 # 开发工具  :  PyCharm
 
 import requests, re, os
