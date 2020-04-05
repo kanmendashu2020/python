@@ -1,9 +1,16 @@
 from django.shortcuts import render
 from django.http import JsonResponse
 from rest_framework.views import APIView
+from rest_framework.pagination import PageNumberPagination
 
 
 # Create your views here.
+
+class MyPage(PageNumberPagination):
+    page_size = 1
+    page_size_query_param = 'size'
+    max_page_size = 5
+    page_query_param = 'page'
 
 class testView(APIView):
     def get(self, *args, **kwargs):
