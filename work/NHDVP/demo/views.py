@@ -21,6 +21,8 @@ class TSysUserSerializers(serializers.ModelSerializer):
 class testDataView(APIView):
 
     def get(self, *args, **kwargs):
+        # http_method_names = ['get', 'post', 'put', 'patch', 'delete', 'head', 'options', 'trace']
+
         try:
             # 查询条件
             ModelsObjects = models.TSysUser.objects.all()
