@@ -6,4 +6,5 @@
 # @Description:
 
 
-# sqlacodegen mssql+pymssql://sa:123@127.0.0.1:1433/dbname > models.py
+#sqlserver sqlacodegen mssql+pymssql://sa:123@127.0.0.1:1433/dbname > models.py
+#mysql sqlacodegen mysql://root:root@120.79.46.152:3306/datav > db_models.py

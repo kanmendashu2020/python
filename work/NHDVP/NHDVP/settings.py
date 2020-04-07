@@ -15,7 +15,6 @@ import os
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
@@ -27,7 +26,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -37,7 +35,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'pageindex'
+    'demo',  # 演示用代码包
+    'utils',  # 工具类代码包
+    'pageindex',  # 页面路径
+
 ]
 
 MIDDLEWARE = [
@@ -55,7 +56,7 @@ ROOT_URLCONF = 'NHDVP.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'resources/../resources/templates')],
+        'DIRS': [os.path.join(BASE_DIR, 'resources/templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -70,7 +71,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'NHDVP.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
@@ -79,13 +79,12 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'DataV',
         'USER': 'root',
-        'PASSWORD': '123456',
-        'HOST': '120.79.46.152',
+        'PASSWORD': '123',
+        'HOST': '172.28.17.81',
         'PORT': '3306',
         'OPTIONS': {'charset': 'utf8mb4'},
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
@@ -105,7 +104,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
 
@@ -119,10 +117,13 @@ USE_L10N = True
 
 USE_TZ = True
 
-
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
 # STATIC_ROOT = ''
-STATICFILES_DIRS = ( os.path.join('static'), )
+STATICFILES_DIRS = [
+    (os.path.join(BASE_DIR, 'resources/static'))
+]
+
+# 'DIRS': [os.path.join(BASE_DIR, 'resources/templates')],
