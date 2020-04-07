@@ -17,3 +17,5 @@ for table_name in inspector.get_table_names():
     print(table_name)
     for column in inspector.get_columns(table_name):
        print("Column: %s" % column['name'])
+
+
