@@ -1,6 +1,0 @@
-Django==2.2.11
-mysqlclient
-pymysql
-djangorestframework
-sqlacodegen
-SQLAlchemy
